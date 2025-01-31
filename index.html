@@ -19,14 +19,14 @@
 <body>
 
     <header class="bg-gradient-to-b from-white to-[#EFEBE3]">
-        <nav class="container mx-auto my-4 flex justify-between items-center border-b-1 border-green-600 sm:border-0">
+        <nav class="container mx-auto flex justify-between items-center border-b-1 border-green-600 sm:border-0 py-4">
             <!-- left -->
             <div>
-                <img src="assets/logo-header.png" alt="">
-                <img class="inline sm:hidden" src="assets/logo.png" alt="">
+                <img class="hidden sm:inline" src="assets/logo-header.png" alt="">
+                <img class="pl-5 inline sm:hidden" src="assets/logo.png" alt="">
             </div>
             <!-- mid -->
-            <div class="text-green-800">
+            <div class="hidden sm:inline text-green-800">
                 <ul class="font-semibold flex justify-center gap-5">
                     <li><a href="">Product</a></li>
                     <li><a href="">Services</a></li>
@@ -34,15 +34,15 @@
                 </ul>
             </div>
             <!-- right -->
-            <div>
+            <div class="hidden sm:inline">
                 <a href=""><i class="fa-solid fa-magnifying-glass text-green-800"></i></a>
                 <a class="ml-1 mr-3" href=""><i class="fa-solid fa-shopping-cart text-green-800"></i></a>
 
-                <button class="rounded-lg border-1 border-green-600 px-4 hover:bg-green-600 hover:text-white">Login</button>
+                <button class="rounded-lg border-1 border-green-600 py-0.5 px-4 hover:bg-green-600 hover:text-white">Login</button>
 
-                <button class="rounded-lg border-1 border-green-600 px-4 bg-green-600 text-white hover:bg-transparent hover:text-green-600">Register</button>
+                <button class="rounded-lg border-1 border-green-600 py-0.5 px-4 bg-green-600 text-white hover:bg-transparent hover:text-green-600">Register</button>
             </div>
-            <div class="sm:hidden inline"><i class="fa-solid fa-bars text-green-600"></i></div>
+            <div class="sm:hidden inline pr-5"><i class="text-2xl fa-solid fa-bars text-green-600"></i></div>
         </nav>
     </header>
     
